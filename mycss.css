@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif; 
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+  }
+.box { 
+    height: 650px;
+    width: 60%;
+    background-color: blue;
+}
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+p {
+    color:white;
+}
+
+.left {
+    background-color: #141516;
+    height: 100%;
+    width: 22%;
+    float: left;
+}
+.right {
+    background-color: #0d0e0e;
+    height: 100%;
+    width: 78%;
+    margin-left: 22%;
+}
+.leftheader {
+    box-sizing: border-box;
+    height: 162px;
+    text-align: center;
+}
+.headtext {
+    position: relative;
+    top: 50px;
+    font-size: 60px;
+    color: #FFC500;
+}
+.leftbods {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    height: 325px;
+    text-align: center;
+}
+.nav {
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    transition: color 0.5s;
+}
+.leftfooter {
+    height:162px;
+    text-align: center;
+}
+.foottext {
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+a:link {
+    color: white;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #FFC500;
+}
+a:active {
+  color: #FFC500;
+  transition: none;
+}
+a.current {
+    color: #FFC500;
+}
+.iconAnchor {
+    position: relative;
+    top: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    transition: color 0.5s;
+}
